@@ -9,6 +9,9 @@ fi
 test -e /null || echo "File not exist!"
 test -e /dev && echo "/dev exist!"
 
+[[ y = n ]] || echo "False"
+[[ test.sh = *.sh ]] && echo "test.sh is a shell script."
+
 food=apple
 drink=tea
 
